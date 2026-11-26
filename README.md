@@ -17,3 +17,9 @@ A demo of using the Tangem MCP server with Claude Code.
 ## Security
 
 Private keys stay on your Tangem card. Every transaction must be confirmed in the Tangem app.
+
+## Troubleshooting
+
+- **No wallet approved for the session**: open the Tangem app and approve a wallet for the connected agent, then try again.
+- **`get_tokens` returns an empty addresses list**: the Tangem app has not shared the addresses yet. Open the app, select the wallet and refresh.
+- **A send request stays `CREATED`**: nobody has signed it yet. Open the request in the Tangem app (or the deeplink), review it and sign it, then check the status again.
