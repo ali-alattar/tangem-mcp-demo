@@ -17,8 +17,3 @@ A demo of using the Tangem MCP server with Claude Code.
 ## Security
 
 Private keys stay on your Tangem card. Every transaction must be confirmed in the Tangem app.
-
-## Requirements
-
-- A Tangem card with a wallet set up in the Tangem app.
-- Claude Code with the Tangem MCP server connected.
